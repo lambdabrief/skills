@@ -32,19 +32,17 @@ The codebase hints are useful when a new capability could simplify an integratio
 
 ## Improve repeat runs
 
-**Keep the sources you discover.** Discovery can be slow, and different runs can find different sources. Ask your agent to save a reviewed inventory of projects, repositories, blogs, feeds, and verification dates. Record when a project has no blog, too. Refresh stale entries and revisit the inventory when your stack changes. Cache where to look; still check for new content each run. [Lambda Brief MCP](#lambda-brief), currently in development, is another way to avoid repeating discovery.
+**Help it read difficult sources.** Some sites need JavaScript or block simple requests. A browser MCP with proxies and CAPTCHA solving can help; Browserbase, Browser Use, and Bright Data are examples. Lambda Brief MCP provides collected content instead.
 
-**Give the agent previous editions.** Include recent briefs or a compact history of covered stories and links. Ask it to avoid repeating a story unless there's a meaningful development. Save that history and any source cache somewhere the next run can access; a fresh session may not retain either. If a run is missed, extend the next brief's date window.
+**Keep the sources you discover.** Discovery can be slow and vary between runs. Cache the projects, repositories, blogs, and feeds your agent finds, and refresh them as your stack changes. Keep the cache somewhere future runs can access. Lambda Brief MCP saves repeating this discovery.
 
-**Help it read difficult sources.** Some sites need JavaScript or block simple requests. A browser MCP such as [Browserbase](https://www.browserbase.com/mcp) can help; its browser infrastructure supports [proxies and CAPTCHA solving](https://docs.browserbase.com/platform/identity/overview). Lambda Brief MCP is also intended to provide already collected content. Neither approach can supply a publication date a source doesn't establish. Keep the skill's short note about unresolved gaps so missing coverage stays visible.
-
-**Review and refine.** The agent can miss a service, misread release notes, or choose stories you don't care about. Review the initial source inventory and a few editions, then feed those corrections back into your copy of the skill. You can ask it to check every source while still keeping the final brief short.
+**Give the agent previous editions.** Include recent briefs or a short history of covered stories so it can avoid repetition and recognize meaningful follow-ups. Make that history available to each run; fresh sessions may not remember it.
 
 ## Lambda Brief
 
 Want the brief without maintaining the research workflow? [Lambda Brief](https://lambdabrief.dev) follows release notes and official blogs and delivers a brief about the tools you use by email or Slack. There's also a free newsletter for a broader selection of developer news.
 
-We're building **Lambda Brief MCP** for people who want maintained source data and their own agent's writing and codebase context. It will let your agent use the content we collect while you control the brief. Check its project coverage against the stack your agent discovers, and add sources where needed.
+For maintained source data with your own agent's writing and codebase context, use **Lambda Brief MCP**. Your agent uses the content we collect while you control the brief. Check its project coverage against your stack, and add sources where needed.
 
 ## License
 
