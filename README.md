@@ -32,9 +32,9 @@ The codebase hints can highlight opportunities to simplify an integration or rep
 
 ## Improve repeat runs
 
-**Help it read difficult sources.** Some sites need JavaScript or block simple requests. Browser tools such as [Browserbase](https://www.browserbase.com/mcp), [Browser Use](https://browser-use.com/mcp), and [Bright Data](https://github.com/brightdata/brightdata-mcp) offer proxies and CAPTCHA solving to help your agent read them. Keep the skill's short note about any sources it couldn't check. [Lambda Brief MCP](https://lambdabrief.dev/user/agents) provides the content we collect, so your agent can focus on composing the brief.
+**Help it read difficult sources.** Some sites need JavaScript or block simple requests. Browser tools such as [Browserbase](https://www.browserbase.com/mcp), [Browser Use](https://browser-use.com/mcp), and [Bright Data](https://github.com/brightdata/brightdata-mcp) offer proxies and CAPTCHA solving to help your agent read them. Keep the skill's short note about any sources it couldn't check. [Lambda Brief MCP](https://lambdabrief.dev/#pro) provides the content we collect, so your agent can focus on composing the brief.
 
-**Keep the sources you discover.** Discovery can be slow, and different runs can find different sources. Ask your agent to save the projects, repositories, blogs, and feeds it finds, along with when it checked them. Reuse that inventory and refresh it when entries grow stale or your stack changes. The agent should still check those sources for new content each run. [Lambda Brief MCP](https://lambdabrief.dev/user/agents) handles discovery for the projects it covers.
+**Keep the sources you discover.** Discovery can be slow, and different runs can find different sources. Ask your agent to save the projects, repositories, blogs, and feeds it finds, along with when it checked them. Reuse that inventory and refresh it when entries grow stale or your stack changes. The agent should still check those sources for new content each run. [Lambda Brief MCP](https://lambdabrief.dev/#pro) handles discovery for the projects it covers.
 
 **Give the agent previous editions.** Include recent briefs or a short history of covered stories and links. Ask it to avoid repeating a story unless there's a meaningful development. Save the history and source inventory somewhere each scheduled run can access, since a fresh session may not retain them. If you miss a run, extend the next brief's date window.
 
@@ -42,7 +42,7 @@ The codebase hints can highlight opportunities to simplify an integration or rep
 
 Want the brief without maintaining the research workflow? [Lambda Brief](https://lambdabrief.dev) follows release notes and official blogs and delivers a brief about the tools you use by email or Slack. There's also a free newsletter for a broader selection of developer news.
 
-If you want your own agent to write the brief, [Lambda Brief MCP](https://lambdabrief.dev/user/agents) supplies the content we collect. Your agent brings the codebase context, and you control the writing and delivery. Check its project coverage against your stack and add any missing sources.
+If you want your own agent to write the brief, [Lambda Brief MCP](https://lambdabrief.dev/#pro) supplies the content we collect. Your agent brings the codebase context, and you control the writing and delivery. Check its project coverage against your stack and add any missing sources.
 
 ## License
 
